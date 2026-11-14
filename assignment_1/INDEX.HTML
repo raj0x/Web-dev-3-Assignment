@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raj Gupta - Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Raj Gupta</h1>
+        <p>Computer Science Student</p>
+    </header>
+
+    <nav aria-label="Main Navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main id="main-content">
+        <section id="home" class="hero">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Hi, I'm Raj — a Computer Science Engineering student passionate about turning ideas into code. I'm currently building foundations in web development, data structures, and software engineering. This portfolio showcases my projects, skills, and learning journey. Always open to collaboration and new opportunities — feel free to reach out!</p>
+        </section>
+
+        <section id="about">
+            <div class="about-container">
+                <h2>About Me</h2>
+                <img src="raj.png" alt="Profile picture of Raj Gupta" class="profile-img">
+                <p>I am a Computer Science Engineering student passionate about programming and software development. I enjoy learning new technologies and creating useful web applications and projects.</p>
+                <p>My current areas of interest include HTML, CSS, JavaScript, Python, C++ and full-stack web development.</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>HTML Portfolio</h3>
+                    <p>A simple personal portfolio webpage created using HTML to organize and present personal details, interests, and project information.</p>
+                </article>
+                <article class="project-card">
+                    <h3>CSS Portfolio</h3>
+                    <p>A styled portfolio webpage using CSS to improve the layout, colours, spacing, and overall appearance of the content.</p>
+                </article>
+                <article class="project-card">
+                    <h3>Fedora AI</h3>
+                    <p>An AI-based assistant concept designed to respond to user questions and provide helpful information through an interactive experience.</p>
+                </article>
+                <article class="project-card">
+                    <h3>AI QR Code Generator</h3>
+                    <p>Convert URLs into QR codes using Python. Generated QR codes can be downloaded and shared.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skill-block">
+                    <h3>Web Development</h3>
+                    <ul>
+                        <li>HTML <span class="level-advanced">Advanced</span></li>
+                        <li>CSS <span class="level-intermediate">Intermediate</span></li>
+                        <li>JavaScript <span class="level-intermediate">Intermediate</span></li>
+                    </ul>
+                </div>
+                <div class="skill-block">
+                    <h3>Programming</h3>
+                    <ul>
+                        <li>Python <span class="level-intermediate">Intermediate</span></li>
+                        <li>C++ <span class="level-beginner">Beginner</span></li>
+                    </ul>
+                </div>
+                <div class="skill-block">
+                    <h3>Development Tools</h3>
+                    <ul>
+                        <li>Git & GitHub <span class="level-intermediate">Intermediate</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch, feel free to reach out via email or social links.</p>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message here" required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>2026 Raj Gupta. All Rights Reserved.</p>
+        <p>
+            <a href="#home">Back to Top</a>
+        </p>
+    </footer>
+</body>
+</html>
